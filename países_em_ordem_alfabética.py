@@ -10,4 +10,4 @@ organizadas = sorted(lista_países)
 print(organizadas)
 
 posição = input('Qual país deseja saber a posição? ')
-print((lista_países.index(posição)))
+print((organizadas.index(posição)))
